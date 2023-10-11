@@ -1,0 +1,586 @@
+1
+00:00:20,810 --> 00:00:21,570
+Bonjour !
+
+2
+00:00:21,770 --> 00:00:24,350
+Aujourd'hui, je vous emmène dans
+la vallée de la Colca située au
+
+3
+00:00:24,550 --> 00:00:25,310
+sud du Pérou.
+
+4
+00:00:25,510 --> 00:00:29,150
+Je me trouve actuellement en face
+du village de Maca, installé au
+
+5
+00:00:29,350 --> 00:00:30,160
+pied du volcan Sabancaya.
+
+6
+00:00:31,280 --> 00:00:33,650
+Le village est également installé
+sur un glissement de terrain qui
+
+7
+00:00:33,850 --> 00:00:37,550
+se déplace lentement et est affecté
+régulièrement par des séismes venant
+
+8
+00:00:37,750 --> 00:00:40,580
+des failles tectoniques proches
+situées à moins de dix kilomètres.
+
+9
+00:00:40,780 --> 00:00:45,830
+Ainsi, ici à Maca, en mars 2022,
+un séisme de magnitude 5.5 a provoqué
+
+10
+00:00:46,030 --> 00:00:47,390
+la destruction d'une partie du village.
+
+11
+00:00:48,110 --> 00:00:51,440
+Le glissement de terrain lui empêche
+l'irrigation des terres et le
+
+12
+00:00:51,640 --> 00:00:52,820
+développement des infrastructures.
+
+13
+00:00:53,150 --> 00:00:57,110
+Il menace ainsi toute une économie
+basée sur le tourisme et l'agriculture,
+
+14
+00:00:57,860 --> 00:01:00,950
+tandis que le volcan,
+en activité quasi constante depuis
+
+15
+00:01:01,150 --> 00:01:02,990
+2015, menace la vie des habitants.
+
+16
+00:01:04,220 --> 00:01:07,430
+Comment des satellites,
+situés à près de 800 kilomètres
+
+17
+00:01:07,630 --> 00:01:10,970
+d'altitude, peuvent nous permettre
+de comprendre ces phénomènes naturels,
+
+18
+00:01:11,170 --> 00:01:13,640
+suivre leur évolution au cours
+du temps et pourquoi pas,
+
+19
+00:01:13,840 --> 00:01:14,750
+prédire leur occurrence ? 
+
+20
+00:01:14,950 --> 00:01:20,970
+En 1957, l'U.R.S.S.
+
+21
+00:01:21,600 --> 00:01:25,440
+lance Spoutnik, le premier satellite
+de l'histoire, dont l'orbite autour
+
+22
+00:01:25,640 --> 00:01:29,670
+de la Terre se situait à environ
+250 kilomètres d'altitude et dont
+
+23
+00:01:29,870 --> 00:01:31,710
+la seule fonction était d'émettre
+des bips.
+
+24
+00:01:32,640 --> 00:01:36,030
+Puis s'en suivit des séries de
+satellites équipés de caméras photo
+
+25
+00:01:36,300 --> 00:01:41,070
+tels les Corona, et Hexagon développés
+par les Etats-Unis dès 1959,
+
+26
+00:01:41,760 --> 00:01:44,790
+ou encore les Zenit ou Lantar
+développés par l'Union soviétique
+
+27
+00:01:44,990 --> 00:01:45,900
+dès 1961.
+
+28
+00:01:46,650 --> 00:01:50,100
+L'objectif de ces satellites était
+la détection des sites militaires
+
+29
+00:01:50,300 --> 00:01:51,060
+de l'autre bloc
+
+30
+00:01:51,260 --> 00:01:55,350
+dans un contexte de guerre froide.
+La transmission des données était
+
+31
+00:01:55,550 --> 00:01:58,770
+assurée par l'éjection des films
+récupérés soit au sol,
+
+32
+00:01:58,970 --> 00:02:00,000
+soit en vol par des avions.
+
+33
+00:02:01,260 --> 00:02:04,560
+Dans le même temps, des satellites
+géostationnaires sont lancés pour
+
+34
+00:02:04,760 --> 00:02:05,970
+observer la couverture nuageuse.
+
+35
+00:02:06,570 --> 00:02:10,800
+Il s'agit de satellites qui suivent
+la rotation de la Terre et observent
+
+36
+00:02:11,000 --> 00:02:12,360
+donc toujours le même point au sol.
+
+37
+00:02:12,990 --> 00:02:16,860
+Ces orbites très hautes,
+36 000 kilomètres, ne permettent
+
+38
+00:02:17,060 --> 00:02:21,090
+pas d'avoir une résolution spatiale
+fine et n'ont donc pas d'application
+
+39
+00:02:21,290 --> 00:02:22,650
+pour les risques naturels géologiques.
+
+40
+00:02:23,670 --> 00:02:26,700
+Le premier satellite d'observation
+de la Terre à visée civile voit
+
+41
+00:02:26,900 --> 00:02:28,140
+le jour en 1972.
+
+42
+00:02:28,620 --> 00:02:32,910
+Il s'agit de Landsat-1 avec une
+orbite à environ 900 kilomètres.
+
+43
+00:02:33,110 --> 00:02:36,660
+Il permet une résolution d'image
+d'environ 80 mètres au sol dans
+
+44
+00:02:36,860 --> 00:02:39,870
+plusieurs bandes spectrales du
+visible et du proche infrarouge.
+
+45
+00:02:41,410 --> 00:02:45,040
+De nouvelles générations de satellites
+Landsat ont par la suite vu le
+
+46
+00:02:45,240 --> 00:02:49,510
+jour et nous avons à présent à
+disposition 50 ans d'observation
+
+47
+00:02:49,710 --> 00:02:50,470
+de la Terre.
+
+48
+00:02:50,670 --> 00:02:54,550
+Par exemple, ici sur le volcan
+Ampato au Pérou, on voit des variations
+
+49
+00:02:54,750 --> 00:02:57,880
+de la calotte glaciaire sommitale
+et de son couvert de cendres liées
+
+50
+00:02:58,080 --> 00:03:02,230
+aux éruptions du volcan voisin
+Sabancaya en 1995 et 2015.
+
+51
+00:03:03,640 --> 00:03:06,700
+Après Landsat, plusieurs constellations
+de satellites optiques vont voir
+
+52
+00:03:06,900 --> 00:03:07,660
+le jour.
+
+53
+00:03:07,860 --> 00:03:13,570
+Spot en 1986, Aster en 1999,
+Quickbird en 2001, Worldview en 2009,
+
+54
+00:03:13,930 --> 00:03:16,600
+avec des capteurs optiques à la
+résolution spatiale toujours plus
+
+55
+00:03:16,800 --> 00:03:18,400
+fine jusqu'à des valeurs submétriques.
+
+56
+00:03:19,870 --> 00:03:23,590
+Ces données, à l'origine à visée
+commerciale, sont maintenant fournies
+
+57
+00:03:23,790 --> 00:03:27,700
+gratuitement et présentent un intérêt
+historique primordial pour l'étude
+
+58
+00:03:27,900 --> 00:03:29,590
+des changements globaux et des
+risques naturels.
+
+59
+00:03:30,790 --> 00:03:33,970
+Certains satellites embarquent
+des radars qui présentent l'avantage
+
+60
+00:03:34,170 --> 00:03:37,780
+d'une observation à travers le
+couvert nuageux, de jour comme de nuit.
+
+61
+00:03:38,440 --> 00:03:40,870
+Ils suivent la même évolution que
+les satellites optiques,
+
+62
+00:03:41,070 --> 00:03:44,260
+avec tout d'abord des visées
+militaires, puis l'apparition des
+
+63
+00:03:44,460 --> 00:03:47,440
+radars pour l'observation de la
+Terre au milieu des années 1990.
+
+64
+00:03:48,370 --> 00:03:51,640
+Après 2010, on observe une
+multiplication des données disponibles,
+
+65
+00:03:51,840 --> 00:03:54,970
+comme on peut le voir ici sur cette
+frise qui montre le lancement des
+
+66
+00:03:55,170 --> 00:03:57,490
+principaux satellites optiques
+depuis 1972.
+
+67
+00:03:58,330 --> 00:04:02,720
+L'évolution des satellites vise
+deux objectifs : un objectif sociétal
+
+68
+00:04:02,920 --> 00:04:05,710
+via la gratuité des données et
+une fréquence d'acquisition toujours
+
+69
+00:04:05,910 --> 00:04:08,230
+plus élevée afin d'observer des
+phénomènes transitoires.
+
+70
+00:04:08,430 --> 00:04:13,300
+Ainsi, le programme européen Copernicus
+fournit des données des satellites
+
+71
+00:04:13,500 --> 00:04:16,750
+Sentinel, comprenant notamment
+une constellation de deux satellites
+
+72
+00:04:16,950 --> 00:04:19,930
+radar appelés Sentinel-1,
+avec une fréquence de revisite
+
+73
+00:04:20,130 --> 00:04:23,200
+de six jours à l'équateur et une
+résolution spatiale d'environ dix
+
+74
+00:04:23,400 --> 00:04:27,490
+mètres, ainsi qu'une constellation
+de deux satellites optiques appelés
+
+75
+00:04:27,690 --> 00:04:31,750
+Sentinel-2, avec une fréquence
+de revisite de cinq jours à l'équateur
+
+76
+00:04:31,960 --> 00:04:35,560
+et une résolution spatiale de dix
+mètres dans quatre bandes spectrales
+
+77
+00:04:35,950 --> 00:04:36,710
+bleu, vert, rouge, infrarouge.
+
+78
+00:04:38,730 --> 00:04:42,360
+On peut également noter les satellites
+Landsat 7/8 qui fournissent des
+
+79
+00:04:42,560 --> 00:04:45,560
+données tous les seize jours avec
+une résolution de quinze mètres
+
+80
+00:04:45,870 --> 00:04:49,650
+et qui offrent une quasi continuité
+d'acquisition depuis 2001.
+
+81
+00:04:50,780 --> 00:04:54,590
+En parallèle, le spatial voit évoluer
+sa stratégie pour couvrir la terre
+
+82
+00:04:54,790 --> 00:04:57,950
+toujours plus fréquemment et avec
+une meilleure résolution spatiale.
+
+83
+00:04:58,760 --> 00:05:02,750
+Fini les gros satellites de plusieurs
+tonnes intégrant plusieurs capteurs.
+
+84
+00:05:03,230 --> 00:05:06,200
+L'industrie spatiale se tourne
+vers des constellations de micro
+
+85
+00:05:06,400 --> 00:05:09,830
+satellites de quelques kilos qui
+permettent une revisite temporelle
+
+86
+00:05:10,030 --> 00:05:10,790
+très élevée.
+
+87
+00:05:10,990 --> 00:05:15,650
+Ainsi, plus de 130 satellites forment
+la constellation Planetscop et
+
+88
+00:05:15,850 --> 00:05:18,530
+offrent une image de chaque point
+du globe plusieurs fois par jour,
+
+89
+00:05:18,860 --> 00:05:22,280
+avec une résolution de trois mètres
+dans quatre bandes du visible.
+
+90
+00:05:22,970 --> 00:05:25,100
+De nombreux pays se tournent vers
+le spatial.
+
+91
+00:05:25,490 --> 00:05:28,910
+Cette course vers le spatial pose
+la question du coût environnemental
+
+92
+00:05:29,110 --> 00:05:29,870
+de la donnée satellite.
+
+93
+00:05:30,320 --> 00:05:33,620
+Un calcul complexe qui inclut les
+phases de développement du satellite,
+
+94
+00:05:33,950 --> 00:05:37,010
+l'acheminement des matériaux,
+la construction, le lancement,
+
+95
+00:05:37,210 --> 00:05:38,960
+le stockage des données et le
+retraitement.
+
+96
+00:05:39,650 --> 00:05:42,500
+Les premiers calculs tendent à
+montrer que l'usage des images
+
+97
+00:05:42,700 --> 00:05:45,410
+satellites est très loin d'être
+neutre en carbone.
+
+98
+00:05:46,160 --> 00:05:49,160
+Ceci est avant tout lié aux phases
+de développement des satellites
+
+99
+00:05:49,640 --> 00:05:52,610
+et il faut donc rationaliser le
+lancement de futurs satellites.
+
+100
+00:05:53,450 --> 00:05:57,080
+Cette offre spatiale ouvre aussi
+des opportunités toujours plus
+
+101
+00:05:57,280 --> 00:05:58,880
+vastes pour étudier les risques
+naturels.
+
+102
+00:05:59,360 --> 00:06:02,030
+D'autant qu'elle s'accompagne d'une
+mise à disposition des données.
+
+103
+00:06:03,140 --> 00:06:06,080
+Il s'agit toutefois de se retrouver
+dans cette jungle des données.
+
+104
+00:06:07,340 --> 00:06:09,920
+Cette masse de données pose aussi
+un défi pour leur traitement.
+
+105
+00:06:10,120 --> 00:06:13,250
+Ainsi, des méthodes de traitement
+automatique ont vu le jour depuis
+
+106
+00:06:13,450 --> 00:06:16,640
+quinze ans, dont certaines pour
+détecter des signaux ou des objets
+
+107
+00:06:16,840 --> 00:06:19,550
+d'intérêt, comme des glissements
+de terrain, mesurer des déplacements
+
+108
+00:06:19,750 --> 00:06:23,180
+du sol de quelques millimètres
+à plusieurs mètres et détecter
+
+109
+00:06:23,380 --> 00:06:26,420
+des changements d'état qui peuvent
+être précurseurs d'un aléa naturel.
+
+110
+00:06:30,890 --> 00:06:34,790
+Pour revenir aux risques naturels,
+les données de télédétection présentent
+
+111
+00:06:34,990 --> 00:06:36,500
+des atouts inédits pour leur gestion.
+
+112
+00:06:37,250 --> 00:06:40,670
+Leur principal atout est la couverture
+globale qui permet d'avoir des
+
+113
+00:06:40,870 --> 00:06:43,880
+informations sur toutes les zones
+du globe, y compris celles qui
+
+114
+00:06:44,080 --> 00:06:46,580
+ne sont pas couvertes par des
+instruments de mesure au sol.
+
+115
+00:06:47,590 --> 00:06:51,220
+Ceci permet d'étudier de grandes
+régions tout en ayant parfois accès
+
+116
+00:06:51,420 --> 00:06:54,730
+à des informations très localisées
+grâce à la haute résolution spatiale
+
+117
+00:06:54,930 --> 00:06:55,690
+et temporelle.
+
+118
+00:06:56,200 --> 00:06:59,470
+Nous avons alors la possibilité
+d'utiliser des données d'archives
+
+119
+00:06:59,670 --> 00:07:03,850
+pour caractériser l'événement ou
+chercher a posteriori des signes
+
+120
+00:07:04,050 --> 00:07:07,540
+avant coureurs potentiels d'événements
+catastrophiques, ou encore,
+
+121
+00:07:07,740 --> 00:07:10,960
+dans l'idéal, pour détecter ces
+signes avant l'événement et ainsi
+
+122
+00:07:11,160 --> 00:07:11,920
+pouvoir donner l'alerte. 
+
