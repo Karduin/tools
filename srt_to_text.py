@@ -9,7 +9,8 @@ import argparse
 def get_srt_file(srt_file):
     try:
         with open(srt_file, 'r', encoding='utf-8') as input:
-            srt_file = input.read()
+            in_file = input.read()
+            return in_file
     except FileNotFoundError:
         print(f'File not found : {srt_file}')
 
@@ -45,6 +46,11 @@ if __name__ == '__main__':
 
     if args.file:
         """args.file != None"""
-        print(pathlib.PurePosixPath(args.file).suffix)
+        if pathlib.PurePosixPath(args.file).suffix != '.srt':
+            print(f'Did you mean : {args.file}.srt ?')
+        else:
+            print(args.file)
+            result = get_srt_file(args.file)
+            result2 = get_content(result)
 
-    get_srt_file(args.file)
+            print(result2)
