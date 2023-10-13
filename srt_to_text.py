@@ -6,6 +6,12 @@ import pathlib
 from pathlib import Path
 import argparse
 
+def get_srt_file(srt_file):
+    try:
+        with open(srt_file, 'r', encoding='utf-8') as input:
+            srt_file = input.read()
+    except FileNotFoundError:
+        print(f'File not found : {srt_file}')
 
 """folder = Path.cwd()
 liste = [file for file in folder.iterdir()]
@@ -22,16 +28,23 @@ def get_content(srt_file):
     content = ' '.join(srt_to_list)
     return content
 
-"""try:
-    with open('course1.srt', 'r', encoding='utf-8') as input:
-        srt_file = input.read()
-
-except IOError:
-    print(f'file error')
+"""
 
 content = get_content(srt_file)
 print(content)
 """
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.parse_args()
+    parser = argparse.ArgumentParser(prog='srt_to_text',
+                                    description='Parse srt files',
+                                    epilog='bottom text')
+
+    parser.add_argument('-f', '--file', required=False, help='Filename to process.')
+    parser.add_argument('-d', '--directory', required=False, default=Path.cwd(), help='Directory to process.')
+
+    args = parser.parse_args()
+
+    if args.file:
+        """args.file != None"""
+        print(pathlib.PurePosixPath(args.file).suffix)
+
+    get_srt_file(args.file)
