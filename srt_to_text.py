@@ -20,11 +20,6 @@ def get_srt_file(srt_file):
     else:
         return in_file
 
-"""folder = Path.cwd()
-liste = [file for file in folder.iterdir()]
-for item in liste:
-    print(item.name)
-"""
 def get_content(srt_string):
     """Get content from srt string and extract text.
 
@@ -32,25 +27,34 @@ def get_content(srt_string):
     Return final string.
     """
     srt_list = srt_string.splitlines()
-    srt_text_list = [item for item in srt_file if not item.isnumeric()
+    srt_text_list = [item for item in srt_list if not item.isnumeric()
                      and item != '' and '-->' not in item]
     content = ' '.join(srt_text_list)
     return content
 
-def process_file():
+def process_file(file):
     """args.file != None"""
-    if pathlib.PurePosixPath(args.file).suffix != '.srt':
-        print(f'Did you mean : {args.file}.srt ?')
+    if pathlib.PurePosixPath(file).suffix != '.srt':
+        print(f'Did you mean : {file}.srt ?')
     else:
-        print(args.file)
-        result = get_srt_file(args.file)
+        print(file)
+        result = get_srt_file(file)
         result2 = get_content(result)
 
         print(result2)
 
-def process_directory():
+def process_directory(output):
+    
     pass
 
+def write_file():
+    pass
+
+"""folder = Path.cwd()
+liste = [file for file in folder.iterdir()]
+for item in liste:
+    print(item.name)
+"""
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='srt_to_text',
