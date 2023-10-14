@@ -1,5 +1,6 @@
-"""
-Extract text from srt files and make text files
+"""Extract text from srt files and make text files.
+
+Text only, without id, blank lines and time code.
 """
 
 import pathlib
@@ -7,33 +8,50 @@ from pathlib import Path
 import argparse
 
 def get_srt_file(srt_file):
+    """Load file in string.
+
+    Check if file exist then return string if so.
+    """
     try:
         with open(srt_file, 'r', encoding='utf-8') as input:
             in_file = input.read()
-            return in_file
     except FileNotFoundError:
         print(f'File not found : {srt_file}')
+    else:
+        return in_file
 
 """folder = Path.cwd()
 liste = [file for file in folder.iterdir()]
 for item in liste:
     print(item.name)
 """
-def get_content(srt_file):
+def get_content(srt_string):
+    """Get content from srt string and extract text.
+
+    Make list from srt string then then a sublist with text only.
+    Return final string.
     """
-    Get content from srt file and extract text
-    """
-    srt_file = srt_file.splitlines()
-    srt_to_list = [item for item in srt_file if not item.isnumeric()
-                   and item != '' and '-->' not in item]
-    content = ' '.join(srt_to_list)
+    srt_list = srt_string.splitlines()
+    srt_text_list = [item for item in srt_file if not item.isnumeric()
+                     and item != '' and '-->' not in item]
+    content = ' '.join(srt_text_list)
     return content
 
-"""
+def process_file():
+    """args.file != None"""
+    if pathlib.PurePosixPath(args.file).suffix != '.srt':
+        print(f'Did you mean : {args.file}.srt ?')
+    else:
+        print(args.file)
+        result = get_srt_file(args.file)
+        result2 = get_content(result)
 
-content = get_content(srt_file)
-print(content)
-"""
+        print(result2)
+
+def process_directory():
+    pass
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='srt_to_text',
                                     description='Parse srt files',
@@ -45,12 +63,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.file:
-        """args.file != None"""
-        if pathlib.PurePosixPath(args.file).suffix != '.srt':
-            print(f'Did you mean : {args.file}.srt ?')
-        else:
-            print(args.file)
-            result = get_srt_file(args.file)
-            result2 = get_content(result)
+        process_file(args.file)
+    else:
+        process_directory(args.directory)
 
-            print(result2)
