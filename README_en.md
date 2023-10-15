@@ -1,5 +1,6 @@
  ## SRT files to TXT files. 
- Small personal tool for automatically processing mooc srt.
+ Small personal tool for automatically processing mooc srt.  
+ Works with Windows and Linux. Not tested with Apple.
 
 Converts srt files into txt files. One by one or in batch.
 
