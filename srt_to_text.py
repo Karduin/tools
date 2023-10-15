@@ -23,7 +23,7 @@ def get_srt_file(srt_file):
 def get_content(srt_string):
     """Get content from srt string and extract text.
 
-    Make list from srt string then then a sublist with text only.
+    Make list from srt string then a sublist with text only.
     Return final string.
     """
     srt_list = srt_string.splitlines()
@@ -34,32 +34,47 @@ def get_content(srt_string):
 
 def process_file(file):
     """args.file != None"""
-    if pathlib.PurePosixPath(file).suffix != '.srt':
-        print(f'Did you mean : {file}.srt ?')
+    path = pathlib.PurePath(file)
+    if path.suffix != '.srt':
+        print(f'Did you mean : {path.name}.srt ?')
     else:
-        print(file)
-        result = get_srt_file(file)
-        result2 = get_content(result)
+        srt_string = get_srt_file(file)
+        output = get_content(srt_string)
+        path = path.with_name(path.stem + '.txt')
+        write_file(path, output)
+    return None
 
-        print(result2)
+def process_directory(directory):
+    """Process all srt files in the directory.
 
-def process_directory(output):
-    
-    pass
+    If directory is not curret working directory make path object.
+    Then process list of files.
+    """
+    if not isinstance(directory, pathlib.PurePath):
+        directory = Path(directory)
 
-def write_file():
-    pass
+    srt_list = [file for file in directory.rglob('*.srt') if file.is_file()]
+    if not srt_list:
+        print('No srt file in this directory.')
+        return None
+    else:
+        for item in srt_list:
+            process_file(item)
+    return None
 
-"""folder = Path.cwd()
-liste = [file for file in folder.iterdir()]
-for item in liste:
-    print(item.name)
-"""
+def write_file(path, output):
+    """Write text file at the same path.
+    """
+    try:
+        with open(path, 'w', encoding='utf-8') as output_txt:
+            output_txt.write(output)
+    except IOError:
+        print('IO Error')
+    return None
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='srt_to_text',
-                                    description='Parse srt files',
-                                    epilog='bottom text')
+                                    description='Parse srt files')
 
     parser.add_argument('-f', '--file', required=False, help='Filename to process.')
     parser.add_argument('-d', '--directory', required=False, default=Path.cwd(), help='Directory to process.')
